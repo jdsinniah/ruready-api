@@ -1,0 +1,41 @@
+<div class="container">
+  <h1>R U READY!?</h1>
+  <div class="row">
+    <div class="col-sm-6">
+      <label>*Name:</label>
+    </div>
+    <div class="col-sm-6">
+        <input [(ngModel)]="user.name" placeholder="Jay"/>
+    </div>
+    <div class="col-sm-6">
+      <label>*Last name:</label>
+    </div>
+    <div class="col-sm-6">
+        <input [(ngModel)]="user.lastname" placeholder="Smoke"/>
+    </div>
+    <div class="col-sm-6">
+      <label>*Email:</label>
+    </div>
+    <div class="col-sm-6">
+        <input [(ngModel)]="user.email" placeholder="jay.smoke@email.com"/>
+    </div>
+    <div class="col-sm-6">
+      <label>*Password:</label>
+    </div>
+    <div class="col-sm-6">
+        <input [(ngModel)]="user.password" placeholder="Password1!"/>
+    </div>
+    <div class="col-sm-6">
+      <label>*Confirm Password:</label>
+    </div>
+    <div class="col-sm-6">
+      <label>
+        <input [(ngModel)]="confirmPassword" placeholder="Password1!"/>
+      </label>
+    </div>
+    <div class="col-sm-12">
+      <button class="btn-dark" (click)="register()">Register</button>
+    </div>
+  </div>
+
+</div>
